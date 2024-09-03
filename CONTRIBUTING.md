@@ -1,6 +1,62 @@
-# OpenSSF SBOM Catalog Contributing Guide
+# OpenSSF SBOM Everywhere Contributing Guide
 
-If you are interested in adding entries to the catalog, or modifying functionality of the catalog, please review this guide.
+If you are interested in adding entries to the catalog or wiki, or modifying functionality of the catalog, please review this guide.
+
+The top portion of this guide is to provide guidance on the basics of using git for anyone unfamiliar. You can jump to the [Catalog](#sbom-catalog) or [Wiki](#sbom-wiki) sections.
+
+## About the projects
+
+The SBOM Catalog and SBOM Wiki projects use an open source development model. Whoever does the work gets to make the decisions. While the SBOM Everywhere group has meetings, those meetings are not where work on these projects happen.
+
+## Contributing
+It can be a terrifying prospect to submit a PR to an open source project, and it's not always clear what to do. We understand that many contributions to this project will come from people who are not necessarily regular open source contributors. We can't wait for your contribution. If you have any questions, no matter how silly you think they could be, please hop in Slack and ask, we'd be happy to help with anything below.
+
+If you're more adventerous, the instructions below are meant to be everything anyone could need to contribute. You don't ever have to leave your web browser!
+
+The code and data is stored in this git repository which is hosted on GitHub. Knowing how Git works is useful, but not necessary. You should find enough instructions here to get you started to edit in the web browser.
+
+To set expectations, it's very likely there will be discussion and several iterations of your modifications. This is how the process works, you're not doing anything wrong, all of us are smarter than one of us.
+
+### The repository
+The Git repository for this project is located at [https://github.com/ossf/sbom-everywhere](https://github.com/ossf/sbom-everywhere). This document is located in that repository, so it's extremely likely you've already found it.
+
+The Catalog is located in the `SBOM-Catalog` directory. The Wiki is in the `SBOM-wiki` directory.
+
+### Adding your contribution
+In order to contribute to the project, you will need to create something called a Pull Request, or PR. Some of the below steps will seem a bit odd, but it's how GitHub works, and generally speaking it's a pretty great process.
+
+You need a GitHub account to submit a PR. If you don't have one, anyone can create an account.
+
+#### Fork the project
+We first have to fork the project. This will create a personal instance of the SBOM Everywhere repository we can make changes to. There is a button labeled `Fork` in the upper right of the GitHub project page
+
+![](documentation-images/contributing-fork.png?raw=true)
+
+When you click `Fork`, you will find the URL has changed from ossf/sbom-everywhere, to *yourusername*/sbom-everywhere
+
+#### Enable signoff
+You need to enable the signoff with web commits feature to have your PR accepted. This is done to pass the [Developer Certificate of Origin](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin), or DCO check that is requires by the OpenSSF.
+
+First click Settings, then check the box labeled *Require contributors to sign off on web-based commits*
+
+You only have to check that box once. If you have to re-fork the repo, you will have to click the box again (it's common to break a fork so bad it's easier to just delete it and start over, don't feel bad if this happens).
+
+![](documentation-images/contributing-signoff.png?raw=true)
+
+- Editing
+  - Edit files in the web
+
+- Link to instructions for the specific project you want to edit
+  - Catalog
+  - Wiki
+
+- Pushing your changes
+- Opening a PR
+  - Please be patient
+  - You can ping us in the slack channel if we're taking too long
+
+
+# SBOM Catalog
 
 ## How to run the tool locally
 
@@ -64,6 +120,12 @@ You can add a logo to the /public/logos folder. The logo should be named after t
 The logo will be displayed on the page in the Map View, the List View, and the details section. You can add Logos for all categories and also for the Publisher.
 
 If you add a Logo, we assume your project and/or company are OK with that. The logo should be used under the fair use policy. If you want to remove your logo, please open an issue, and we will remove it.
+
+# SBOM Wiki
+
+Add things here
+
+---
 
 ## Shoutout
 

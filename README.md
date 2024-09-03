@@ -4,6 +4,8 @@ Home of the OpenSSF SBOM Everywhere SIG. We're glad you're here!
 
 ## Get Involved
 
+All of our efforts are open to anyone. We are an open source project. There are meetings, projects, documentation, and more. Everyone is welcome, we would love to work with you.
+
 *   Official communications occur on the [openssf-sig-sbom](https://lists.openssf.org/g/openssf-sig-sbom) mailing list
     * [Manage your subscriptions to Open SSF mailing lists](https://lists.openssf.org/g/main/subgroups)
 *   We have a [Slack Channel](https://openssf.slack.com/archives/C03GKSYFRC0) for discussion various SBOM related activities
@@ -15,12 +17,17 @@ Home of the OpenSSF SBOM Everywhere SIG. We're glad you're here!
 
 ## Current Projects
 
+The SBOM Catalog and SBOM Wiki projects are looking for contributions. If you see an error, omission, or want to add your project or company, please see [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ### SBOM Catalog
 To provide a better overview of the available tooling and their capabilities, this group maintains an SBOM Catalog which can be found under the following link:
 
-[https://sbom-catalog.openssf.org/](https://sbom-catalog.openssf.org/)
+[https://sbom-catalog.openssf.org/catalog/](https://sbom-catalog.openssf.org/catalog/)
 
-If you want to get involved, please see the document [here](/SBOM-Catalog/contribute.md)
+### SBOM Wiki
+We also have a page that documents a number of SBOM resources. The intent of this wiki is to capture as  much information as possible on all things SBOM. This page is a community maintained resource.
+
+[https://sbom-catalog.openssf.org/](https://sbom-catalog.openssf.org/)
 
 #### TODO
 More data needs to be added to the catalog
