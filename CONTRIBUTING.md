@@ -2,23 +2,23 @@
 
 If you are interested in adding entries to the catalog or wiki, or modifying functionality of the catalog, please review this guide.
 
-The top portion of this guide is to provide guidance on the basics of using git for anyone unfamiliar. You can jump to the [Catalog](#sbom-catalog) or [Wiki](#sbom-wiki) sections.
+The top portion of this guide is to provide guidance on the basics of using git for anyone unfamiliar. You can jump to the [SBOM Catalog Contributing Guide](#sbom-catalog-contributing-guide) or [SBOM Wiki Contributing Guide](#sbom-wiki-contributing-guide) sections.
 
 ## About the projects
 
 The SBOM Catalog and SBOM Wiki projects use an open source development model. Whoever does the work gets to make the decisions. While the SBOM Everywhere group has meetings, those meetings are not where work on these projects happen.
 
 ## Contributing
-It can be a terrifying prospect to submit a PR to an open source project, and it's not always clear what to do. We understand that many contributions to this project will come from people who are not necessarily regular open source contributors. We can't wait for your contribution. If you have any questions, no matter how silly you think they could be, please hop in Slack and ask, we'd be happy to help with anything below.
+It can be a terrifying prospect to submit a PR to an open source project, and it's not always clear what to do. We understand that many contributions to this project will come from people who are not necessarily regular open source contributors. We can't wait for your contribution. If you have any questions, no matter how silly you think they could be, please hop in Slack or open an issue in this repo and ask, we'd be happy to help with anything.
 
-If you're more adventerous, the instructions below are meant to be everything anyone could need to contribute. You don't ever have to leave your web browser!
+The instructions below are meant to be everything anyone could need to contribute. You don't even have to leave your web browser. The instructions below are focused on creating a PR in GitHub using only the browser.
 
-The code and data is stored in this git repository which is hosted on GitHub. Knowing how Git works is useful, but not necessary. You should find enough instructions here to get you started to edit in the web browser.
+The code and data is stored in this git repository which is hosted on GitHub. Knowing how Git works is useful, but not necessary. You should find enough instructions in this section to get you started to edit in the web browser.
 
 To set expectations, it's very likely there will be discussion and several iterations of your modifications. This is how the process works, you're not doing anything wrong, all of us are smarter than one of us.
 
 ### The repository
-The Git repository for this project is located at [https://github.com/ossf/sbom-everywhere](https://github.com/ossf/sbom-everywhere). This document is located in that repository, so it's extremely likely you've already found it.
+The Git repository for this project is located at [https://github.com/ossf/sbom-everywhere](https://github.com/ossf/sbom-everywhere). This document is located in that repository, so it's extremely likely you've already found it if you're reading this.
 
 The Catalog is located in the `SBOM-Catalog` directory. The Wiki is in the `SBOM-wiki` directory.
 
@@ -39,24 +39,63 @@ You need to enable the signoff with web commits feature to have your PR accepted
 
 First click Settings, then check the box labeled *Require contributors to sign off on web-based commits*
 
-You only have to check that box once. If you have to re-fork the repo, you will have to click the box again (it's common to break a fork so bad it's easier to just delete it and start over, don't feel bad if this happens).
+You only have to check that box once. If you ever have to re-fork the repo, you will have to click the box again (it's common to break a fork so bad it's easier to just delete it and start over, don't feel bad if this happens).
 
 ![](documentation-images/contributing-signoff.png?raw=true)
 
-- Editing
-  - Edit files in the web
+#### Editing a file
+In the web interface, you can edit or add files.
 
-- Link to instructions for the specific project you want to edit
-  - Catalog
-  - Wiki
+To add a file click the `+` icon
 
-- Pushing your changes
-- Opening a PR
-  - Please be patient
-  - You can ping us in the slack channel if we're taking too long
+![](documentation-images/contributing-add-file.png?raw=true)
 
+To edit a file, there is an edit button when viewing an individual file
 
-# SBOM Catalog
+![](documentation-images/contributing-edit-button.png?raw=true)
+
+Each project has specific instructions and expectations, you should review those sections in this document.
+- [Catalog Editing](#sbom-catalog-contributing-guide)
+- [Wiki Editing](#sbom-wiki-contributing-guide)
+
+Make the changes you need to make to a given file, then hit the `Commit Changes` button
+
+![](documentation-images/contributing-make-changes.png?raw=true)
+
+You will be presented with a screen asking you to add a commit message.
+
+![](documentation-images/contributing-commit-message.png?raw=true)
+
+If the button at the bottom doesn't say `Sign off and commit changes` you probably forgot the sign off step above. Add a description and commit your change. Your change is not stored in your fork of the sbom-everywhere repository.
+
+#### Testing your changes
+It was sort of a lie that you could do all of this using only a web browser. Testing is easiest to do locally. Each tool has documentation about how to run a local copy and check things are working as expected.
+
+- [Catalog Editing](#sbom-catalog-contributing-guide)
+- [Wiki Editing](#sbom-wiki-contributing-guide)
+
+If you're not able to do this, feel free to ask in Slack, someone will be willing to help out.
+
+#### Opening the PR
+Assuming all the editing and testing went as expected, it's time to submit a PR.
+
+You might see a button labeled `Compare & pull request` for the branch you're working on. If not you can use the `Contribute` button to open a PR
+
+![](documentation-images/contributing-open-pr.png?raw=true)
+
+You should then see a screen that looks like this
+
+![](documentation-images/contributing-create-pr.png?raw=true)
+
+Make sure the Title and Description make sense. The click the `Create pull request` button. That's it, you've submitted a PR to the project. Congrats!
+
+It's possible it will take time for us to get to your changes. Feel free to ping the Slack channel if it's more than a week without any activity. We're all volunteers, so patience is appreciated.
+
+---
+---
+---
+
+# SBOM Catalog Contributing Guide
 
 ## How to run the tool locally
 
@@ -121,7 +160,7 @@ The logo will be displayed on the page in the Map View, the List View, and the d
 
 If you add a Logo, we assume your project and/or company are OK with that. The logo should be used under the fair use policy. If you want to remove your logo, please open an issue, and we will remove it.
 
-# SBOM Wiki
+# SBOM Wiki Contributing Guide
 
 Add things here
 
