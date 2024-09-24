@@ -93,19 +93,36 @@ It's possible it will take time for us to get to your changes. Feel free to ping
 
 ---
 ---
----
 
 # SBOM Catalog Contributing Guide
 
+If you wish to contribute to the SBOM Catalog, first you might want to review the above [Contributing](#contributing) guidance.
+
 ## How to run the tool locally
 
-Run the comamnds
+If you plan to run the tool locally, you will need to "pull" the git repository. This could be the sbom-everywhere repository, or your fork.
+
+You will also need a functional Node.js installed. Getting the repo pulled and Node.js installed are larger than we wish to include in this guide, feel free to ask on Slack if you need some help.
+
+Assuming you have Node.js and the repo cloned, run these comamnds
 ```
+cd SBOM-Catalog
 npm install
 npm run dev
 ```
 
-Visiting the URL specified in the output will show you the current version of the site.
+There will be much printed to the screen, but eventually you should see
+
+```bash
+  VITE v5.3.2  ready in 416 ms
+
+  ➜  Local:   http://localhost:5173/catalog/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+```
+
+Visiting the URL specified in the output will show you the current version of the Catalog.
 
 ## How to add your tool
 If you know of a tool or project that should be listed here, please open a pull request. There are three things to consider while adding a new tool:
