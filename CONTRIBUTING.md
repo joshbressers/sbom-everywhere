@@ -4,6 +4,11 @@ If you are interested in adding entries to the catalog or wiki, or modifying fun
 
 The top portion of this guide is to provide guidance on the basics of using git for anyone unfamiliar. You can jump to the [SBOM Catalog Contributing Guide](#sbom-catalog-contributing-guide) or [SBOM Wiki Contributing Guide](#sbom-wiki-contributing-guide) sections.
 
+## Who can contribute
+Everyone is welcome to contribute to the catalog and wiki. If you work for a company that makes SBOM tools or products, we would love to see them listed here.
+
+Both open source and commercial offerings should be included.
+
 ## About the projects
 
 The SBOM Catalog and SBOM Wiki projects use an open source development model. Whoever does the work gets to make the decisions. While the SBOM Everywhere group has meetings, those meetings are not where work on these projects happen.
