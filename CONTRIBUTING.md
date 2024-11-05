@@ -14,7 +14,23 @@ Both open source and commercial offerings should be included.
 The SBOM Catalog and SBOM Wiki projects use an open source development model. Whoever does the work gets to make the decisions. While the SBOM Everywhere group has meetings, those meetings are not where work on these projects happen.
 
 ## Contributing
-It can be a terrifying prospect to submit a PR to an open source project, and it's not always clear what to do. We understand that many contributions to this project will come from people who are not necessarily regular open source contributors. We can't wait for your contribution. If you have any questions, no matter how silly you think they could be, please hop in Slack or open an issue in this repo and ask, we'd be happy to help with anything.
+It can be a terrifying prospect to submit a PR or open an issue for an open source project, and it's not always clear what to do. We understand that many contributions to this project will come from people who are not necessarily regular open source contributors. We can't wait for you to contribute! If you have any questions, no matter how silly you think they could be, please hop in Slack or open an issue in this repo and ask, we'd be happy to help with anything.
+
+## Opening an issue
+
+By far the easiest way to contribute is to open an issue in our [GitHub repository](https://github.com/ossf/sbom-everywhere/). Don't worry about getting all the details right, we'll be nice and ask any questions that we might have.
+
+You need a GitHub account to open an issue. If you don't have one, anyone can create an account.
+
+Click on the "Issues" link at the top left, then the "New issue" button on the right
+
+![](documentation-images/new-issue.png?raw=true)
+
+Please fill out the title and description as best as you can. Don't worry about getting all the detials correct, we'll help you out with that part.
+
+Once you're happy with the description just hit "Submit new issue" and you should hear from someone in a few days.
+
+## Opening a Pull Request
 
 The instructions below are meant to be everything anyone could need to contribute. You don't even have to leave your web browser. The instructions below are focused on creating a PR in GitHub using only the browser.
 
