@@ -13,16 +13,16 @@ The Mission and Scope of the WG is defined in the project [README.md](README.md)
 ## 2. Group Structure and Voting
 
 1) The WG will have at least two leads known as Chairs
-   - Current Chairs are Kate Stewart and Josh Bressers
-   - Chairs may stop down voluntarily or be removed by the OpenSSF TAC with a majority vote
-   - New Chairs will be decided by a majority consensus of meeting attendees and approved by a majority vote of the TAC
+   1) Current Chairs are Kate Stewart and Josh Bressers
+   1) Chairs may stop down voluntarily or be removed by the OpenSSF TAC with a majority vote
+   1) New Chairs will be decided by a majority consensus of meeting attendees and approved by a majority vote of the TAC
 1) The SBOM Community WG does not have a permanent list of members except the Chair positions. It is expected that participation in the group will be fluid and always changing. Majority consensus decisions will be made by the members attending a meeting requiring a decision.
 1) The content of materials created by the WG will be decided by the individuals working on the materials
-   - Sub-groups for material creation and curation may be created and disbanded as needed, a majority consensus is not needed for sub-group creation or disbanding
-   - Whoever does the work is responsible for making content decisions
-   - Publishing of final products will be agreed upon by a majority consensus of the WG and approved by the OpenSSF TAC and Staff
+   1) Sub-groups for material creation and curation may be created and disbanded as needed, a majority consensus is not needed for sub-group creation or disbanding
+   1) Whoever does the work is responsible for making content decisions
+   1) Publishing of final products will be agreed upon by a majority consensus of the WG and approved by the OpenSSF TAC and Staff
 1) Non content related decisions will be decided by a majority consensus
-   - In the event an agreement cannot be reached on an important topic, that topic will be decided by the Chairs with advisement from the TAC
+   1) In the event an agreement cannot be reached on an important topic, that topic will be decided by the Chairs with advisement from the TAC
 
 ## 3. Compliance with Policies
 
