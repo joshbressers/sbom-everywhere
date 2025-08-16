@@ -1,116 +1,71 @@
 # Technical Charter for Open Source Security Foundation
 
-[OpenSSF - Working Group | Stream 9: SBOM EVERYWHERE SIG]
+SBOM Community Working Group
 
 Adopted [DATE]
 
-This Technical Charter sets forth the responsibilities and procedures for technical contribution to, and oversight of, the [COMMUNITY NAME] open source community, which has been established as a [Working Group | Technical Initiative] (the "Technical Initiative") under the Open Source Security Foundation (the “OpenSSF”).  All contributors (including committers, maintainers, and other technical positions) and other participants in the Technical Initiative (collectively, “Collaborators”) must comply with the terms of this Technical Charter and the OpenSSF Charter. 
+This Technical Charter sets forth the responsibilities and procedures for technical contribution to, and oversight of, the SBOM Community Working Group open source community, which has been established as a Working Group (the "WG") under the Open Source Security Foundation (the “OpenSSF”). All contributors (including committers, maintainers, and other technical positions) and other participants in the Technical Initiative (collectively, “Collaborators”) must comply with the terms of this Technical Charter and the OpenSSF Charter. 
 
-#### 1. Mission and Scope of the Technical Initiative
+## 1. Mission and Scope of the Technical Initiative
 
-- a. The mission of the Technical Initiative is to ensure the adoptability of SBOMs across open soruce software is of a sound, vetted and accessible process.  This includes the following:
-   - automation hosting
-      - pipelines with the proper tooling, technical composition, transparency and provenance ought be provided for use by all open source software projects in order to achieve:
-         a. consistent generation of SBOMs
-         b. consistent data representation and analysis
-         c. consistent and reproducible analysis of vulnerabilities
-         d. consistent and reproducible analysis of exploitability
-         e. consistent and reproducible analysis of security impact
-         f. consistent and reproducible analysis of security risk
-         g. consistent and reproducible analysis of security cost.
+The Mission and Scope of the WG is defined in the project [README.md](README.md). The Mission, Vision, and Scope may be updated independent of this charter based on a majority consensus of the WG.
 
-- b. The scope of the Technical Initiative includes collaborative development under the Technical Initiative License (as defined herein) supporting the mission, including organizing collaboration activities, defining best practices, documentation, testing, integration, and the creation of other artifacts that support the mission.
+## 2. Group Structure and Voting
 
-#### 2. Technical Steering Committee
+1) The WG will have at least two leads known as Chairs
+   - Current Chairs are Kate Stewart and Josh Bressers
+   - Chairs may stop down voluntarily or be removed by the OpenSSF TAC with a majority vote
+   - New Chairs will be decided by a majority consensus of meeting attendees and approved by a majority vote of the TAC
+1) The SBOM Community WG does not have a permanent list of members except the Chair positions. It is expected that participation in the group will be fluid and always changing. Majority consensus decisions will be made by the members attending a meeting requiring a decision.
+1) The content of materials created by the WG will be decided by the individuals working on the materials
+   - Sub-groups for material creation and curation may be created and disbanded as needed, a majority consensus is not needed for sub-group creation or disbanding
+   - Whoever does the work is responsible for making content decisions
+   - Publishing of final products will be agreed upon by a majority consensus of the WG and approved by the OpenSSF TAC and Staff
+1) Non content related decisions will be decided by a majority consensus
+   - In the event an agreement cannot be reached on an important topic, that topic will be decided by the Chairs with advisement from the TAC
 
-- a. The Technical Steering Committee (the "TSC") will be responsible for all oversight of the Technical Initiative. 
+## 3. Compliance with Policies
 
-- b. The TSC voting members are initially the Technical Initiative’s Maintainers. The Maintainers will be documented in the Technical Initiative repository. The TSC is responsible for determining the future process for defining voting members of the TSC, and any such alternative approach will also be documented appropriately.  Any meetings of the Technical Steering Committee are intended to be open to the public, and can be conducted electronically, via teleconference, or in person. 
+1) This Technical Charter is subject to the OpenSSF Charter and any rules or policies established for all WGs.
 
-- c. The Technical Initiative generally will involve Collaborators and Contributors. The TSC may adopt or modify additional roles so long as the roles are documented in the Technical Initiative’s repository. Unless otherwise documented: 
+1) The WG participants must conduct their business in a professional manner, subject to the Contributor Covenant Code of Conduct 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct. The TSC may adopt a different code of conduct ("CoC") for the WG, subject to approval by the TAC.
 
-   - i. Contributors include anyone in the technical community that contributes effort, ideas, code, documentation, or other artifacts to the Technical Initiative; 
+1) All Collaborators must allow open participation from any individual or organization meeting the requirements for contributing under this Technical Charter and any policies adopted for all Collaborators by the WG, regardless of competitive interests. Put another way, the WG community must not seek to exclude any participant based on any criteria, requirement, or reason other than those that are reasonable and applied on a non-discriminatory basis to all Collaborators in the WG community. All activities conducted in the WG are subject to the Linux Foundation’s Antitrust Policy, available at https://www.linuxfoundation.org/antitrust-policy.
 
-   - ii. Collaborators are Contributors who have earned the ability to modify ("commit") text, source code, documentation or other artifacts in the Technical Initiative’s repository or direct the agenda or working activities of the Technical Initiative; and
+1) The WG will operate in a transparent, open, collaborative, and ethical manner at all times. The output of all WG discussions, proposals, timelines, decisions, and status should be made open and easily visible to all. Any potential violations of this requirement should be reported immediately to the TAC.
 
-   - iii. A Contributor may become a Collaborator by a majority approval of the existing Collaborators. A Collaborator may be removed by a majority approval of the other existing Collaborators.
+## 4. Community Assets
 
-   - iv. Maintainers are the initial Collaborators defined at the creation of the Technical Initiative. The Maintainers will determine the process for selecting future Maintainers. A Maintainer may be removed by two-thirds approval of the other existing Maintainers, or a majority of the other existing Collaborators.
+1) The Linux Foundation will hold title to all trade or service marks used by the WG ("WG Trademarks"), whether based on common law or registered rights. WG Trademarks may be transferred and assigned to LF WGs to hold on behalf of the WG. Any use of any WG Trademarks by Collaborators in the WG will be in accordance with the trademark usage policy of the Linux Foundation, available at https://www.linuxfoundation.org/trademark-usage, and inure to the benefit of the Linux Foundation.
 
-- d. Participation in the Technical Initiative through becoming a Contributor, Collaborator, or Maintainer is open to anyone, whether a OpenSSF member or not, so long as they abide by the terms of this Technical Charter. 
+1) The Linux Foundation or WG must own or control the repositories, social media accounts, and domain name registrations created for use by the WG community.
 
-- e. The TSC may create, change, modify, or remove roles or their definitions, so long as the definitions of roles for the Technical Initiative are publicly available in the Technical Initiative repository.
+1) Under no circumstances will the Linux Foundation be expected or required to undertake any action on behalf of the WG that is inconsistent with the policies or tax-exempt status or purpose, as applicable, of the Linux Foundation.
 
-- f. The TSC may elect a TSC Chair, who will preside over meetings of the TSC and will serve until their resignation or replacement by the TSC.  **The TSC Chair, or any other TSC member so designated by the TSC, will serve as the Technical Initiative’s voting representative on the OpenSSF’s Technical Advisory Council (the "TAC").
+## 5. Intellectual Property Policy
 
-- g. Responsibilities: The TSC will be responsible for all aspects of oversight relating to the Technical Initiative, which may include:
+1) Collaborators acknowledge that the copyright in all new contributions will be retained by the copyright holder as independent works of authorship and that no contributor or copyright holder will be required to assign copyrights to the WG.
+   1) Except as described in Section 6.c., all contributions to the WG are subject to the following:
 
-   - i. coordinating the direction of the Technical Initiative;
+   1) All new inbound code contributions to the WG must be made using the Apache License, Version 2.0, available at [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0) (the "WG License").
 
-   - ii. approving, organizing or removing activities and projects;
+   1) All new inbound code contributions must also be accompanied by a Developer Certificate of Origin ([http://developercertificate.org](http://developercertificate.org)) sign-off in the source code system that is submitted through a TSC-approved contribution process which will bind the authorized contributor and, if not self-employed, their employer to the applicable license;
 
-   - iii. establish community norms, workflows, processes, release requirements, and templates for the operation of the Technical Initiative;
+   1) All outbound code will be made available under the WG License.
 
-   - iv. establish a fundraising model, and approve or modify a Technical Initiative budget, subject to OpenSSF Governing Board approval;
+   1) Documentation will be received and made available by the WG under the Creative Commons Attribution 4.0 International License, available at [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
 
-   - v. appointing representatives to work with other open source or open standards communities;
+   1) To the extent a contribution includes or consists of data, any rights in such data shall be made available under the CDLA-Permissive 1.0 License.
 
-   - vi. approving and implementing policies and processes for contributing (to be published in the Technical Initiative repository) and coordinating with the Linux Foundation to resolve matters or concerns that may arise as set forth in Section 6 of this Technical Charter;
+   1) The WG may seek to integrate and contribute back to other open source projects ("Upstream Projects"). In such cases, the WG will conform to all license requirements of the Upstream Projects, including dependencies, leveraged by the WG.  Upstream Project code contributions not stored within the WG’s main code repository will comply with the contribution process and license terms for the applicable Upstream Project.
 
-   - vii. facilitating discussions, seeking consensus, and where necessary, voting on technical matters relating to the Technical Initiative; and
+1) The TAC may approve the use of an alternative license or licenses for inbound or outbound contributions on an exception basis. To request an exception, please describe the contribution, the alternative open source license(s), and the justification for using an alternative open source license for the TAC. License exceptions must be approved by a two-thirds vote of the entire Governing Board.
 
-   - viii. coordinating any communications regarding the Technical Initiative.
+1) Contributed files should contain license information, such as SPDX short form identifiers, indicating the open source license or licenses pertaining to the file.
 
-#### 3. TSC Voting
+## 6. Amendments
 
-- a. While the Technical Initiative aims to operate as a consensus-based community, if any TSC decision requires a vote to move the Technical Initiative forward, the voting members of the TSC will vote on a one vote per voting member basis.
-
-- b. Quorum for TSC meetings requires at least fifty percent of all voting members of the TSC to be present. The TSC may continue to meet if quorum is not met but will be prevented from making any decisions at the meeting.
-
-- c. Except as provided in Section 7.c. and 8.a, decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a majority vote of all voting members of the TSC.
-
-- d. In the event a vote cannot be resolved by the TSC, any voting member of the TSC may refer the matter to the TAC for assistance in reaching a resolution.
-
-#### 4. Compliance with Policies
-
-- a. This Technical Charter is subject to the OpenSSF Charter and any rules or policies established for all Technical Initiatives.  
-
-- b. The Technical Initiative participants must conduct their business in a professional manner, subject to the Contributor Covenant Code of Conduct 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/). The TSC may adopt a different code of conduct ("CoC") for the Technical Initiative, subject to approval by the TAC.
-
-- c. All Collaborators must allow open participation from any individual or organization meeting the requirements for contributing under this Technical Charter and any policies adopted for all Collaborators by the TSC, regardless of competitive interests. Put another way, the Technical Initiative community must not seek to exclude any participant based on any criteria, requirement, or reason other than those that are reasonable and applied on a non-discriminatory basis to all Collaborators in the Technical Initiative community. All activities conducted in the Technical Initiative are subject to the Linux Foundation’s Antitrust Policy, available at [https://www.linuxfoundation.org/antitrust-policy](https://www.linuxfoundation.org/antitrust-policy/).
-
-- d. The Technical Initiative will operate in a transparent, open, collaborative, and ethical manner at all times. The output of all Technical Initiative discussions, proposals, timelines, decisions, and status should be made open and easily visible to all. Any potential violations of this requirement should be reported immediately to the TAC.
-
-#### 5. Community Assets
-
-- a. The Linux Foundation will hold title to all trade or service marks used by the Technical Initiative ("Technical Initiative Trademarks"), whether based on common law or registered rights.  Technical Initiative Trademarks may be transferred and assigned to LF Technical Initiatives to hold on behalf of the Technical Initiative. Any use of any Technical Initiative Trademarks by Collaborators in the Technical Initiative will be in accordance with the trademark usage policy of the Linux Foundation, available at [https://www.linuxfoundation.org/trademark-usage](https://www.linuxfoundation.org/trademark-usage/), and inure to the benefit of the Linux Foundation.  
-
-- b. The Linux Foundation or Technical Initiative must own or control the repositories, social media accounts, and domain name registrations created for use by the Technical Initiative community.
-
-- c. Under no circumstances will the Linux Foundation be expected or required to undertake any action on behalf of the Technical Initiative that is inconsistent with the policies or tax-exempt status or purpose, as applicable, of the Linux Foundation.
-
-#### 6. Intellectual Property Policy
-
-- a. Collaborators acknowledge that the copyright in all new contributions will be retained by the copyright holder as independent works of authorship and that no contributor or copyright holder will be required to assign copyrights to the Technical Initiative. 
-
-- b. Except as described in Section 6.c., all contributions to the Technical Initiative are subject to the following: 
-
-  - i. All new inbound code contributions to the Technical Initiative must be made using the Apache License, Version 2.0, available at [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0) (the "Technical Initiative License"). 
-
-  - ii. All new inbound code contributions must also be accompanied by a Developer Certificate of Origin ([http://developercertificate.org](http://developercertificate.org)) sign-off in the source code system that is submitted through a TSC-approved contribution process which will bind the authorized contributor and, if not self-employed, their employer to the applicable license;
-
-  - iii. All outbound code will be made available under the Technical Initiative License.
-
-  - iv. Documentation will be received and made available by the Technical Initiative under the Creative Commons Attribution 4.0 International License, available at [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/). 
-
-  - v. To the extent a contribution includes or consists of data, any rights in such data shall be made available under the CDLA-Permissive 1.0 License.
-
-  - vi. The Technical Initiative may seek to integrate and contribute back to other open source projects ("Upstream Projects"). In such cases, the Technical Initiative will conform to all license requirements of the Upstream Projects, including dependencies, leveraged by the Technical Initiative.  Upstream Project code contributions not stored within the Technical Initiative’s main code repository will comply with the contribution process and license terms for the applicable Upstream Project.
-
-- c. The TSC may approve the use of an alternative license or licenses for inbound or outbound contributions on an exception basis. To request an exception, please describe the contribution, the alternative open source license(s), and the justification for using an alternative open source license for the Technical Initiative. License exceptions must be approved by a two-thirds vote of the entire Governing Board. 
-
-- d. Contributed files should contain license information, such as SPDX short form identifiers, indicating the open source license or licenses pertaining to the file.
-
-#### 7. Amendments
-
-- a. This charter may be amended by a two-thirds vote of the entire TSC and is subject to approval by the TAC.
+1) This charter may be amended by a process of majority consensus and is subject to approval by the TAC.
+   1) The amendment will be announced on the mailing list and Slack channels at least two weeks before the first discussion meeting
+   1) The amendment will be discussed on two consecutive meetings. Any agreed changes to the amendment will reset the consecutive meeting counter
+   1) If the WG has a majority consensus including agreement by the Chairs, the amendments will be referred to the TAC for approval
